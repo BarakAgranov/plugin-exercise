@@ -19,3 +19,5 @@ async def get_data(plugin_name: str = Path(..., description="Name of the plugin"
     processed_data = await third_party_plugin.process_response(response)
 
     return processed_data
+git remote set-url origin [https://github.com/BarakAgranov/plugin-exercise.git]
+git remote add origin https://github.com/BarakAgranov/plugin-exercise.git
